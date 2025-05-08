@@ -94,6 +94,9 @@ Built using **Streamlit + OpenAI (RAG)**:
 * Embedding + FAISS for efficient retrieval
 * Context-aware responses via GPT-3.5
 
+### MU RAG QA Architecture
+![Blank board (1)](https://github.com/user-attachments/assets/4d846500-4f05-46ed-aafb-8ecb621efc44)
+
 ###  6. Score-Based Roommate Matching
 
 Students fill a lifestyle preference survey:
