@@ -123,7 +123,7 @@ When unwell, students can:
 
 ---
 
-🔄 Setup Instructions
+## 🔄 Setup Instructions
 
 1. Clone the repository
 ```sh
