@@ -2,6 +2,14 @@
 
 The **Hostel Management System (HMS)** is an all-in-one, web-based solution designed to streamline and digitize hostel operations. HMS enhances the student living experience and reduces administrative overhead through a modern, scalable platform that supports a wide range of functionalities tailored for hostel life.
 
+# Documents
+- Problem Statement[SOW (2).pdf](https://github.com/user-attachments/files/20107325/SOW.2.pdf)
+
+- SRS[SRS (1).pdf](https://github.com/user-attachments/files/20107332/SRS.1.pdf)
+
+- SDD[Project Software Design Specification (2).pdf](https://github.com/user-attachments/files/20107328/Project.Software.Design.Specification.2.pdf)
+
+
 ---
 ## Demo
 
@@ -181,7 +189,7 @@ The web app will launch at http://localhost:5555 (or a port shown by Flutter).
 |-----------------------|--------------|--------------------------------------------------------------------------------|
 | Cherith Reddy Y       | SE22UARI036  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
 | **Monisha K**         | SE22UARI098  | Backend – Spring Boot APIs, Database Schema (MySQL), Flask Backend for QA Bot  |
-| **GunaShritha M A**   | SE22UARI102  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
+| **GunaShritha M  **   | SE22UARI102  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
 | **Dhruti T**          | SE22UARI175  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
 | **Lalitya Y**         | SE22UARI178  | Backend – Spring Boot APIs, Database Schema (MySQL)                            | 
 
