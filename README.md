@@ -115,30 +115,63 @@ When unwell, students can:
 
 ---
 
-##  Setup Instructions
+🔄 Setup Instructions
 
-###  Frontend (Flutter Web)
+1. Clone the repository
+```sh
+git clone https://github.com/monisha-max/SE-HostelManagement.git
+cd SE-HostelManagement
+```
 
-# Run the frontend
-- flutter run -d chrome
+2. Configure the database
+Log in to MySQL and create a database:
+```sh
+CREATE DATABASE hostel_management;
+```
+In SE-HostelManagement-backend/src/main/resources/application.properties, update with your MySQL credentials:
+```sh
+spring.datasource.url=jdbc:mysql://localhost:3306/hostel_management
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.jpa.hibernate.ddl-auto=update
+```
+3. Run the Backend (Spring Boot)
 
-###  Backend (Spring Boot)
-
-bash
-# Clone the repository
-git clone [<repository-url>](https://github.com/monisha-max/SE-HostelManagement/)
-
-# Navigate into the project folder
+Navigate to the backend folder:
+```sh
 cd SE-HostelManagement-backend
+```
 
-# Clean and build the project
-mvn clean
-mvn install
+Clean and build the project:
+```sh
+mvn clean install
+```
 
-# Run the backend
+Start the Spring Boot application:
+```sh
 mvn spring-boot:run
+```
 
-Ensure MySQL is running and accessible. Update your `application.properties` to match your MySQL credentials and database schema.
+The backend will start on http://localhost:8080 by default.
+
+4. Run the Frontend (Flutter)
+
+Open a new terminal and navigate to the frontend folder:
+```sh
+cd SE-HostelManagement-frontend
+```
+
+Get Flutter dependencies:
+```sh
+flutter pub get
+```
+
+Run the app in Chrome:
+```sh
+flutter run -d chrome
+```
+
+The web app will launch at http://localhost:5555 (or a port shown by Flutter).
 
 ---
 
