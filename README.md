@@ -5,7 +5,7 @@ The **Hostel Management System (HMS)** is an all-in-one, web-based solution desi
 # Documents
 - [Problem Statement](https://github.com/user-attachments/files/20107325/SOW.2.pdf)
 
-- [Software Requiremnt Specification](https://github.com/user-attachments/files/20107332/SRS.1.pdf)
+- [Software Requirement Specification](https://github.com/user-attachments/files/20107332/SRS.1.pdf)
 
 - [Software Design Specification](https://github.com/user-attachments/files/20107328/Project.Software.Design.Specification.2.pdf)
 
