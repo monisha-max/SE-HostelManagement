@@ -186,9 +186,8 @@ flutter run -d chrome
 The web app will launch at http://localhost:5555 (or a port shown by Flutter).
 
 5. Run the AI Chatbot (Streamlit)
-
-cd ../AI_RAG_CHATBOT
 ```sh
+cd ../AI_RAG_CHATBOT
 pip install -r requirements.txt
 python3 server.py
 streamlit run ui.py
