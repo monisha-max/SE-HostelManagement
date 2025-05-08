@@ -1,4 +1,4 @@
-# Hostel Management System (HMS) 🏨
+# Hostel Management System (HMS) 
 
 The **Hostel Management System (HMS)** is an all-in-one, web-based solution designed to streamline and digitize hostel operations. HMS enhances the student living experience and reduces administrative overhead through a modern, scalable platform that supports a wide range of functionalities tailored for hostel life.
 
@@ -8,38 +8,38 @@ The **Hostel Management System (HMS)** is an all-in-one, web-based solution desi
 
 ---
 
-## 🚀 Why We Built This (The Fun, Honest Truth)
-- 😵‍💫 Lost & Found Chaos
+##  Why We Built This (The Fun, Honest Truth)
+-  Lost & Found Chaos
 Lose something in the hostel? You either make 10 calls, send 20 WhatsApp photos, or it’s gone forever. We fixed that. Snap it, upload it, and everyone can see and claim it instantly.
 
-- 🧺 Washing Machine Guesswork
+-  Washing Machine Guesswork
 Ever paced to the laundry room every 10 minutes just to find someone else’s clothes inside? Or worse—left your own and had them mysteriously disappear? Now you just book a slot and relax. No more laundry roulette.
 
-- 📝 Complaints in the Void
+-  Complaints in the Void
 You write your issue in a dusty complaint notebook and… it vanishes into the abyss. Our platform logs every complaint, tracks its status, and ensures it's seen and solved.
 
-- 🧹 Room Cleaning Confusion
+-  Room Cleaning Confusion
 Want your room cleaned? Too bad—there’s no system, and you’ll never know when it's your turn. We added a slot-based room cleaning scheduler. Book, confirm, and breathe easy.
 
-- 🛏️ Roommate Roulette
+- 🛏 Roommate Roulette
 Getting a roommate whose vibe doesn’t match yours? Say hello to sleepless nights and awkward conversations. We introduced a Score-Based Roommate Matching System—so you’re more likely to be paired with someone who actually respects your sleep schedule.
 
-- 🤒 Sick Day Struggles
+-  Sick Day Struggles
 You’re unwell. But you still need to walk to the mess, stand in line, and carry your food back. Why?! With HMS, you just submit a Food Request, and your needs are logged and managed. Rest like you deserve to.
 
-- 💬 Never-Ending Questions
+-  Never-Ending Questions
 “What’s the laundry policy?” “Who’s the warden?” “What’s the WiFi password?” Enter the AI-powered Hostel Chatbot—available 24/7, powered by real-time web scraping and intelligent search. Ask away, and skip the endless group chats.
 
 ---
 From broken processes to brilliance—we turned problems into features. HMS isn't just software. It's a student-life upgrade.
 
-- Because we believe managing hostel life shouldn’t feel harder than clearing your midterms. 🎓✨
+- Because we believe managing hostel life shouldn’t feel harder than clearing your midterms. 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### ✉️ 1. Complaint Management
+###  1. Complaint Management
 
 Students can easily raise complaints regarding maintenance, infrastructure, or general issues within the hostel.
 
@@ -47,7 +47,7 @@ Students can easily raise complaints regarding maintenance, infrastructure, or g
 * Validation for complete input
 * Admin portal for reviewing and resolving issues
 
-### 🔍 2. Lost and Found
+###  2. Lost and Found
 
 Students and wardens can:
 
@@ -56,7 +56,7 @@ Students and wardens can:
 * Browse and claim listed items
 * Warden dashboard to **edit**, **resolve**, and **delete** entries
 
-### 🚚 3. Room Cleaning Schedule
+###  3. Room Cleaning Schedule
 
 A digital room-cleaning calendar lets students:
 
@@ -65,14 +65,14 @@ A digital room-cleaning calendar lets students:
 * Receive instant notifications upon booking
 * Cleaning staff can update task status
 
-### ♴️ 4. Washing Machine Booking
+### ♴ 4. Washing Machine Booking
 
 * Reserve slots based on real-time availability
 * One booking per student per day
 * Specify clothing type (e.g., wool, cotton)
 * Track machine usage for maintenance
 
-### 🧑‍💻 5. Mahindra University QA Bot
+###  5. Mahindra University QA Bot
 
 An AI chatbot that answers queries about:
 
@@ -86,7 +86,7 @@ Built using **Streamlit + OpenAI (RAG)**:
 * Embedding + FAISS for efficient retrieval
 * Context-aware responses via GPT-3.5
 
-### 🚛 6. Score-Based Roommate Matching
+###  6. Score-Based Roommate Matching
 
 Students fill a lifestyle preference survey:
 
@@ -94,7 +94,7 @@ Students fill a lifestyle preference survey:
 * Matching algorithm ranks compatibility scores
 * Suggestions based on best match
 
-### 🍽️ 7. Food Requests for Sick Students
+###  7. Food Requests for Sick Students
 
 When unwell, students can:
 
@@ -105,7 +105,7 @@ When unwell, students can:
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Layer    | Tech                       |
 | -------- | -------------------------- |
@@ -115,14 +115,14 @@ When unwell, students can:
 
 ---
 
-## 🚧 Setup Instructions
+##  Setup Instructions
 
-### 💡 Frontend (Flutter Web)
+###  Frontend (Flutter Web)
 
 # Run the frontend
 - flutter run -d chrome
 
-### 🚀 Backend (Spring Boot)
+###  Backend (Spring Boot)
 
 bash
 # Clone the repository
@@ -142,7 +142,7 @@ Ensure MySQL is running and accessible. Update your `application.properties` to 
 
 ---
 
-## 🙏 Team
+##  Team
 
 
 
