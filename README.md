@@ -65,7 +65,7 @@ A digital room-cleaning calendar lets students:
 * Receive instant notifications upon booking
 * Cleaning staff can update task status
 
-### ♴ 4. Washing Machine Booking
+###  4. Washing Machine Booking
 
 * Reserve slots based on real-time availability
 * One booking per student per day
