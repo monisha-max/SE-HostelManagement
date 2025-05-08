@@ -1,0 +1,20 @@
+<!— at the top of your HTML declare the namespace: 
+   xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" —>
+
+<nav>
+  <a th:href="@{/items}">Home</a>
+  <a th:href="@{/washing/calendar}" sec:authorize="isAuthenticated()">
+    Washing Calendar
+  </a>
+  <a th:href="@{/rooms/calendar}" sec:authorize="isAuthenticated()">
+    Room Calendar
+  </a>
+  
+  <a th:href="@{/upload}" sec:authorize="isAuthenticated()">Upload</a>
+  <!-- only admins see this: -->
+  <a th:href="@{/admin/dashboard}" sec:authorize="hasRole('ADMIN')">
+    Admin Dashboard
+  </a>
+  <a th:href="@{/login}" sec:authorize="isAnonymous()">Login</a>
+  <a th:href="@{/logout}" sec:authorize="isAuthenticated()">Logout</a>
+</nav>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+  <h1>Room Schedule Booking</h1>
+  <form th:action="@{/rooms/book}" th:object="${booking}" method="post">
+    <label>Date:
+      <input type="date" th:field="*{date}" required/>
+    </label><br/>
+    <label>Time Slot:
+      <select th:field="*{timeSlot}">
+        <option th:each="s : ${slots}" th:value="${s}" th:text="${s}"/>
+      </select>
+    </label><br/>
+    <label>Room Number:
+      <input type="text" th:field="*{roomNumber}" required/>
+    </label><br/>
+    <button type="submit">Book</button>
+  </form>
+  <a th:href="@{/rooms/calendar}">View Calendar</a>
+</body>
+</html>

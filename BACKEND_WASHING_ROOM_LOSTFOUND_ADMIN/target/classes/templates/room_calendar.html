@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"/><title>Room Schedule</title></head>
+<body>
+  <h1>Room Schedule for <span th:text="${date}"></span></h1>
+
+  <div th:if="${error}" style="color:red;margin-bottom:1em;"
+       th:text="${error}"></div>
+
+  <table border="1" cellpadding="5">
+    <thead>
+      <tr><th>Time Slot</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr th:each="entry : ${cal.entrySet()}">
+        <td th:text="${entry.key}"></td>
+        <td>
+          <form th:if="${entry.value == null}"
+                th:action="@{/rooms/book}" method="post">
+            <input type="hidden" name="date" th:value="${date}" />
+            <input type="hidden" name="timeSlot" th:value="${entry.key}" />
+            <input type="text" name="roomNumber"
+                   placeholder="Room #" required size="5"/>
+            <button type="submit">Book</button>
+          </form>
+          <div th:if="${entry.value != null}">
+            Booked by <b th:text="${entry.value.user.username}"></b>
+            (Room <span th:text="${entry.value.roomNumber}"></span>)
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    <a th:href="@{/rooms/calendar(date=${date.minusDays(1)})}">◀ Prev Day</a>
+    |
+    <a th:href="@{/rooms/calendar(date=${date.plusDays(1)})}">Next Day ▶</a>
+  </p>
+</body>
+</html>

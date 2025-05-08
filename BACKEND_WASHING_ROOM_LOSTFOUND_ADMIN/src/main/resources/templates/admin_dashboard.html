@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <h1>Admin Dashboard</h1>
+
+  <!-- Lost & Found -->
+  <h2>Lost & Found Items</h2>
+  <table border="1" cellpadding="5">
+    <tr><th>ID</th><th>User</th><th>Title</th><th>Location</th><th>Resolved</th><th>Actions</th></tr>
+    <tr th:each="it : ${items}">
+      <td th:text="${it.id}"></td>
+      <td th:text="${it.uploadedBy.username}"></td>
+      <td th:text="${it.title}"></td>
+      <td th:text="${it.location}"></td>
+      <td th:text="${it.resolved}"></td>
+      <td>
+        <!-- Resolve -->
+        <form th:action="@{/admin/resolve/{id}(id=${it.id})}"
+              method="post" style="display:inline">
+          <button th:if="${!it.resolved}" type="submit">Resolve</button>
+          <span th:if="${it.resolved}">✓</span>
+        </form>
+
+        <!-- Delete -->
+        <form th:action="@{/admin/delete/{id}(id=${it.id})}"
+              method="post" style="display:inline">
+          <button type="submit" onclick="return confirm('Really delete?')">Delete</button>
+        </form>
+
+        <!-- Edit -->
+        <a th:href="@{/admin/edit/{id}(id=${it.id})}">Edit</a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Washing Machine Bookings -->
+  <h2>Washing‑Machine Bookings</h2>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>ID</th><th>User</th><th>Date</th><th>Time Slot</th><th>Room #</th>
+    </tr>
+    <tr th:each="b : ${washings}">
+      <td th:text="${b.id}"></td>
+      <td th:text="${b.user.username}"></td>
+      <td th:text="${b.date}"></td>
+      <td th:text="${b.timeSlot}"></td>
+      <td th:text="${b.roomNumber}"></td>
+    </tr>
+  </table>
+
+  <!-- Room Schedule Bookings -->
+  <h2>Room Schedule Bookings</h2>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>ID</th><th>User</th><th>Date</th><th>Time Slot</th><th>Room #</th>
+    </tr>
+    <tr th:each="b : ${rooms}">
+      <td th:text="${b.id}"></td>
+      <td th:text="${b.user.username}"></td>
+      <td th:text="${b.date}"></td>
+      <td th:text="${b.timeSlot}"></td>
+      <td th:text="${b.roomNumber}"></td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
+
+

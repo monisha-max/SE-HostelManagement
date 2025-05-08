@@ -1,0 +1,13 @@
+streamlit
+flask
+requests
+python-dotenv
+
+openai
+langchain
+langchain-community
+langchain-openai
+
+crawl4ai
+faiss-cpu
+

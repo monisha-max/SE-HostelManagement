@@ -1,0 +1,12 @@
+<h1>Lost & Found Items</h1>
+<ul>
+  <li th:each="it : ${items}">
+    <img th:src="${it.imagePath}" alt="[[${it.title}]]" width="150"/><br/>
+    <b th:text="${it.title}"/> at <span th:text="${it.location}"/><br/>
+    <i th:text="${it.description}"/>
+  </li>
+</ul>
+<a th:href="@{/upload}">Upload new item</a>
+
+
+  
