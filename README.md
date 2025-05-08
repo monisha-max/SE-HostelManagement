@@ -122,6 +122,7 @@ When unwell, students can:
 | -------- | -------------------------- |
 | Frontend | Flutter (Web via Chrome)   |
 | Backend  | Spring Boot (RESTful APIs) |
+| Chatbot  | Streamlit, Python          |
 | Database | MySQL                      |
 
 ---
@@ -183,6 +184,17 @@ flutter run -d chrome
 ```
 
 The web app will launch at http://localhost:5555 (or a port shown by Flutter).
+
+5. Run the AI Chatbot (Streamlit)
+
+cd ../AI_RAG_CHATBOT
+```sh
+pip install -r requirements.txt
+python3 server.py
+streamlit run ui.py
+```
+
+The chatbot will open in your browser at http://localhost:8501 by default.
 
 ---
 
