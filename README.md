@@ -192,9 +192,9 @@ The web app will launch at http://localhost:5555 (or a port shown by Flutter).
 |-----------------------|--------------|--------------------------------------------------------------------------------|
 | Cherith Reddy Y       | SE22UARI036  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
 | **Monisha K**         | SE22UARI098  | Backend – Spring Boot APIs, Database Schema (MySQL), Flask Backend for QA Bot  |
-| **GunaShritha M  **   | SE22UARI102  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
+| **GunaShritha M**     | SE22UARI102  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
 | **Dhruti T**          | SE22UARI175  | Flutter UI/UX Development, Integration with Spring Boot APIs                   |
-| **Lalitya Y**         | SE22UARI178  | Backend – Spring Boot APIs, Database Schema (MySQL)                            | 
+| **Lalitya Y**         | SE22UARI188  | Backend – Spring Boot APIs, Database Schema (MySQL)                            | 
 
 
 
