@@ -1,10 +1,8 @@
 import streamlit as st
 import requests
 
-# Page config
 st.set_page_config(page_title="Mahindra RAG Chatbot", page_icon="📚", layout="centered")
 
-# Custom CSS: Only color changes applied
 st.markdown("""
     <style>
     .title { font-size: 48px; font-weight: bold; color: #4F8BF9; text-align: center; }
