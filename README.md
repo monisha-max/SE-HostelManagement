@@ -21,7 +21,7 @@ You write your issue in a dusty complaint notebook and… it vanishes into the a
 -  Room Cleaning Confusion
 Want your room cleaned? Too bad—there’s no system, and you’ll never know when it's your turn. We added a slot-based room cleaning scheduler. Book, confirm, and breathe easy.
 
-- 🛏 Roommate Roulette
+-  Roommate Roulette
 Getting a roommate whose vibe doesn’t match yours? Say hello to sleepless nights and awkward conversations. We introduced a Score-Based Roommate Matching System—so you’re more likely to be paired with someone who actually respects your sleep schedule.
 
 -  Sick Day Struggles
