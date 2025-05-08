@@ -3,11 +3,11 @@
 The **Hostel Management System (HMS)** is an all-in-one, web-based solution designed to streamline and digitize hostel operations. HMS enhances the student living experience and reduces administrative overhead through a modern, scalable platform that supports a wide range of functionalities tailored for hostel life.
 
 # Documents
-- Problem Statement[SOW (2).pdf](https://github.com/user-attachments/files/20107325/SOW.2.pdf)
+- [Problem Statement](https://github.com/user-attachments/files/20107325/SOW.2.pdf)
 
-- SRS[SRS (1).pdf](https://github.com/user-attachments/files/20107332/SRS.1.pdf)
+- [Software Requiremnt Specification](https://github.com/user-attachments/files/20107332/SRS.1.pdf)
 
-- SDD[Project Software Design Specification (2).pdf](https://github.com/user-attachments/files/20107328/Project.Software.Design.Specification.2.pdf)
+- [Software Design Specification](https://github.com/user-attachments/files/20107328/Project.Software.Design.Specification.2.pdf)
 
 
 ---
