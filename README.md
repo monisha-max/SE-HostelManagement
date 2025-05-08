@@ -201,5 +201,4 @@ The web app will launch at http://localhost:5555 (or a port shown by Flutter).
 
 
 ---
-
-HMS isn't just a hostel management system—it's a leap toward smart, student-first living. With automation, AI, and empathy at its core, HMS transforms everyday hostel life into a seamless, empowering experience
+🚀 HMS isn’t just a system — it’s your hostel’s smartest roommate! From washing machine bookings and lost & found to AI-powered query resolution, food requests for the unwell, roommate matching, complaint tracking, and room cleaning schedules — HMS integrates 7 powerful modules into one intuitive platform. Built with automation, empathy, and efficiency in mind, it reimagines hostel life for the modern student — making it smoother, smarter, and stress-free.
