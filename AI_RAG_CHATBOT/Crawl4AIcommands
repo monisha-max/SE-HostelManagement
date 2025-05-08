@@ -13,11 +13,7 @@ python3 -m playwright install
 
 
 pip install -r requirements.txt
-pip install -U crawl4ai --pre
-crawl4ai-setup
-crawl4ai-doctor
-python3 -m playwright install
-
 
 python3 server.py
+
 streamlit run ui.py
