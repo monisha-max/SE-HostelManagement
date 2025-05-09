@@ -17,25 +17,25 @@ The **Hostel Management System (HMS)** is an all-in-one, web-based solution desi
 ---
 
 ##  Why We Built This (The Fun, Honest Truth)
--  Lost & Found Chaos
+-  ### Lost & Found Chaos
 Lose something in the hostel? You either make 10 calls, send 20 WhatsApp photos, or it’s gone forever. We fixed that. Snap it, upload it, and everyone can see and claim it instantly.
 
--  Washing Machine Guesswork
+- ### Washing Machine Guesswork
 Ever paced to the laundry room every 10 minutes just to find someone else’s clothes inside? Or worse—left your own and had them mysteriously disappear? Now you just book a slot and relax. No more laundry roulette.
 
--  Complaints in the Void
+- ### Complaints in the Void
 You write your issue in a dusty complaint notebook and… it vanishes into the abyss. Our platform logs every complaint, tracks its status, and ensures it's seen and solved.
 
--  Room Cleaning Confusion
+- ### Room Cleaning Confusion
 Want your room cleaned? Too bad—there’s no system, and you’ll never know when it's your turn. We added a slot-based room cleaning scheduler. Book, confirm, and breathe easy.
 
--  Roommate Roulette
+- ### Roommate Roulette
 Getting a roommate whose vibe doesn’t match yours? Say hello to sleepless nights and awkward conversations. We introduced a Score-Based Roommate Matching System—so you’re more likely to be paired with someone who actually respects your sleep schedule.
 
--  Sick Day Struggles
+- ### Sick Day Struggles
 You’re unwell. But you still need to walk to the mess, stand in line, and carry your food back. Why?! With HMS, you just submit a Food Request, and your needs are logged and managed. Rest like you deserve to.
 
--  Never-Ending Questions
+- ### Never-Ending Questions
 “What’s the laundry policy?” “Who’s the warden?” “What’s the WiFi password?” Enter the AI-powered Hostel Chatbot—available 24/7, powered by real-time web scraping and intelligent search. Ask away, and skip the endless group chats.
 
 ---
