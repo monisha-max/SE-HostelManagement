@@ -13,7 +13,7 @@ The **Hostel Management System (HMS)** is an all-in-one, web-based solution desi
 ---
 ## Demo
 
-
+- [Video link](https://mahindraecolecentrale-my.sharepoint.com/:f:/g/personal/se22uari036_mahindrauniversity_edu_in/Esm9yd_k0gFOgwpxXAxwHTcBI8akIbU9n13JlRQHAgRrOw?e=Z8x5YK)
 ---
 
 ##  Why We Built This (The Fun, Honest Truth)
